@@ -1,0 +1,46 @@
+## Blender Basic 
+- **Movement**
+	- Middle mouse click + drag = Rotate the view 
+	- Shift + middle mouse click + drag = Move the view
+	- Mouse wheel scroll = Zoom in , Zoom Out
+- **Mode**
+	- Object Mode
+		- Select object
+		- Shade and other options
+	- Edit Mode: You can not select any object.
+		- Vertices select
+		- Edge select
+		- Face select
+	- `[Tab]` will toggle within object mode and edit mode
+- **Shortcut Keys:**
+	- `e` = Extrude
+	- `g` = Grab
+	- `s` = Scale
+	- `r` = Rotate
+	- `i` = Inset; Take a single phase and add a loop around that phase
+	- `Ctrl + r` = Loop Cut + Scroll to add more/less loop-cut; Adding more geometry
+	- `Ctrl + b` = Bavel (Select all edge by pressing `Alt` + one edge, then bavel, move the mouse, then scroll to add more bavel line)
+	- `Shift + a` = Add menu
+	- `F9` = Get back the Last used function, only appear if you didn't change anything. 
+	- `Shift + d` = Duplicate selected
+	- `x` = Lock the edit only in x axis
+	- `y` = Lock the edit only in y axis
+	- `z` = Lock the edit only in z axis
+	- `Alt + r` = Clear rotation.
+	- **Number pad**
+		- `perod(.)` = move view to the selected object. Object must be selected here
+		- `0` = Camera perspective
+		- `1` = -y axis view
+		- `3` = x axis view
+		- `7` = z axis view
+		- `9` = -z axis view
+		- `5` = Remove the grid; Orthographic view
+		- `4,6` = Rotate the view: right, left
+		- `8,2` = Rotate the view: up,down
+		- `+,-` = When save, add number after the file-name.
+- **Modifier:** Are not actually adjust the real mesh; NON DISTRACTIVE WORKFLOW
+		- `Solidify` = Ad thickness to object(Click `Add Mdifier`/ Settings icon on the right side, goto `Generate`, find solidify or search)
+		- `Subdivision Surface` = Average the corners point. Rounding the edges...
+		- 
+- **Steps:** 
+	- Got to edit mode, select any vertices/edges/faces, use any keys to modify(e/g/s/r), modify using mouse/lock modify in one axis(x,y,z),
