@@ -16,9 +16,10 @@
 	- `e` = Extrude
 	- `g` = Grab
 	- `s` = Scale
-	- `r` = Rotate
+	- `r` = Rotate; Hold `Ctrl` to rotate in degrees, or type the degree. i.e 90 
 	- `i` = Inset; Take a single phase and add a loop around that phase
 	- `Ctrl + r` = Loop Cut + Scroll to add more/less loop-cut; Adding more geometry
+	- `gg` = Select loop and slide
 	- `Ctrl + b` = Bavel (Select all edge by pressing `Alt` + one edge, then bavel, move the mouse, then scroll to add more bavel line)
 	- `Shift + a` = Add menu
 	- `F9` = Get back the Last used function, only appear if you didn't change anything. 
@@ -26,7 +27,8 @@
 	- `x` = Lock the edit only in x axis
 	- `y` = Lock the edit only in y axis
 	- `z` = Lock the edit only in z axis
-	- `Alt + r` = Clear rotation.
+	- `Alt + r` = Clear rotation
+	- `Shift + n` = Clear normals
 	- **Number pad**
 		- `perod(.)` = move view to the selected object. Object must be selected here
 		- `0` = Camera perspective
@@ -38,8 +40,8 @@
 		- `4,6` = Rotate the view: right, left
 		- `8,2` = Rotate the view: up,down
 		- `+,-` = When save, add number after the file-name.
-- **Modifier:** Are not actually adjust the real mesh; NON DISTRACTIVE WORKFLOW
-		- `Solidify` = Ad thickness to object(Click `Add Mdifier`/ Settings icon on the right side, goto `Generate`, find solidify or search)
+- **Modifier:** Are not actually adjust the real mesh; NON DISTRACTIVE WORKFLOW; Click apply to apply it permanently with the mesh.
+		- `Solidify` = Ad thickness to object(Click `Add Mdifier`/ Settings icon on the right side, goto `Generate`, find solidify or search); 
 		- `Subdivision Surface` = Average the corners point. Rounding the edges...
 		- 
 - **Steps:** 
